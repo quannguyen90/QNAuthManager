@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QNAuthManager'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Auth Library'
   s.swift_version    = '4.2'
 
