@@ -1,0 +1,16 @@
+PODS:
+  - QNAuthManager (1.0.0)
+
+DEPENDENCIES:
+  - QNAuthManager (from `../`)
+
+EXTERNAL SOURCES:
+  QNAuthManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QNAuthManager: 4f89e92c628f8990eb308783d6cbdfee6b7956ec
+
+PODFILE CHECKSUM: f96f5c2a2b245ed113773db54dd5b92faa24a94e
+
+COCOAPODS: 1.5.3

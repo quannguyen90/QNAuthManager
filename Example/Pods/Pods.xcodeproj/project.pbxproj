@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7067A2041B35A4752B85FB49E4C29B9F /* Pods-QNAuthManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C61617654398C6E8ACFBE7C4311C07 /* Pods-QNAuthManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B32CD4F05365CFED96299BC16E26BD7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1801F769305189043CE45299E671285 /* ReplaceMe.swift */; };
+		9456904CFD0C669592483575B81A4FA7 /* Pods-QNAuthManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A240E88EA4D3C7795FAE9D4B265684 /* Pods-QNAuthManager_Example-dummy.m */; };
+		B21E4DE6049FA2DA8E4CC119DF4351FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		FA65220B6B76FDB5DBEA7BB49D5A4E10 /* QNAuthManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E1269A547FEA0AEA266FA404C3BEA4 /* QNAuthManager-dummy.m */; };
+		FB8F1B23F5EB890D142C8C698CCA0E6E /* QNAuthManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3B3E6DDA5CE55FEBE52DDCE7F3AC89 /* QNAuthManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDB7E1AB14779EBCA230C755F6B643F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F27914AEB2BDB9123004804A0E46D32B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EAB2A6DF18B8BF84EB7D62F4114730B;
+			remoteInfo = QNAuthManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B932AB1978B5D8D3AA7E8E25A55B4BF /* Pods-QNAuthManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNAuthManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		50A240E88EA4D3C7795FAE9D4B265684 /* Pods-QNAuthManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QNAuthManager_Example-dummy.m"; sourceTree = "<group>"; };
+		667B102C3F74EAA13DF30057D0C29643 /* Pods-QNAuthManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNAuthManager_Example-resources.sh"; sourceTree = "<group>"; };
+		6C3B3E6DDA5CE55FEBE52DDCE7F3AC89 /* QNAuthManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QNAuthManager-umbrella.h"; sourceTree = "<group>"; };
+		76AA8B88C8FAEE414D5194F8D67E3BC9 /* QNAuthManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QNAuthManager-prefix.pch"; sourceTree = "<group>"; };
+		8D507A0A7D5A19DF3A787500D55C99A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9299D06C2CC60FB5090B8EBB1E4E1182 /* QNAuthManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QNAuthManager.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA2559FC462E067258AC12061A254F43 /* QNAuthManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QNAuthManager.xcconfig; sourceTree = "<group>"; };
+		B8C61617654398C6E8ACFBE7C4311C07 /* Pods-QNAuthManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QNAuthManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		BB01DA7447C15ABE7CDD9EBB803A3C61 /* QNAuthManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QNAuthManager.framework; path = QNAuthManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34E89BAD916E9BCDACD213E8269C264 /* Pods-QNAuthManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QNAuthManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0232AADE9103EE62555B57431B78C9D /* Pods-QNAuthManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNAuthManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D0CC72958854CFFD809E4AA58500A0EA /* Pods-QNAuthManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QNAuthManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E0278E003BC0444D06BFDDC74012DE6E /* Pods_QNAuthManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QNAuthManager_Example.framework; path = "Pods-QNAuthManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23B42B73CB88A09AA412EE865EC1EC0 /* Pods-QNAuthManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QNAuthManager_Example.modulemap"; sourceTree = "<group>"; };
+		E2E1269A547FEA0AEA266FA404C3BEA4 /* QNAuthManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QNAuthManager-dummy.m"; sourceTree = "<group>"; };
+		EA4D80E93A386D2AE258E6D053E74EA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EC35C66D055853D1A32A5855CB5F1994 /* QNAuthManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QNAuthManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF9B43970889A1D5EE9D76981CF6ADAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1801F769305189043CE45299E671285 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = QNAuthManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F6864464C276A309E24B16E86EA468DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C8866545866FF15A6609FE80296D12 /* Pods-QNAuthManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNAuthManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7221205F1919FCF7651F530F837EDD7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21E4DE6049FA2DA8E4CC119DF4351FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860FB0BCC9890949B734CCB35FF4CC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB7E1AB14779EBCA230C755F6B643F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19CD82FB1DFCD80FCDFEA15750D3482D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EA4D80E93A386D2AE258E6D053E74EA8 /* LICENSE */,
+				EC35C66D055853D1A32A5855CB5F1994 /* QNAuthManager.podspec */,
+				8D507A0A7D5A19DF3A787500D55C99A2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		282FFCA3EB5010F7C1A6EBAE6D438030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0278E003BC0444D06BFDDC74012DE6E /* Pods_QNAuthManager_Example.framework */,
+				BB01DA7447C15ABE7CDD9EBB803A3C61 /* QNAuthManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58AC1585AAF506343FA13A11DCEAE77A /* QNAuthManager */ = {
+			isa = PBXGroup;
+			children = (
+				F1801F769305189043CE45299E671285 /* ReplaceMe.swift */,
+				19CD82FB1DFCD80FCDFEA15750D3482D /* Pod */,
+				DCEC41A928A93EEA3848C6D00F907A1B /* Support Files */,
+			);
+			name = QNAuthManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B22E0277ECE4D6B42882F06C4EAB34A5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				282FFCA3EB5010F7C1A6EBAE6D438030 /* Products */,
+				DEF9325DE62DA5A4F2DED0275E4B51C9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		968EF39A854481E79E41FD89C3CAA53E /* Pods-QNAuthManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EF9B43970889A1D5EE9D76981CF6ADAE /* Info.plist */,
+				E23B42B73CB88A09AA412EE865EC1EC0 /* Pods-QNAuthManager_Example.modulemap */,
+				D0CC72958854CFFD809E4AA58500A0EA /* Pods-QNAuthManager_Example-acknowledgements.markdown */,
+				C34E89BAD916E9BCDACD213E8269C264 /* Pods-QNAuthManager_Example-acknowledgements.plist */,
+				50A240E88EA4D3C7795FAE9D4B265684 /* Pods-QNAuthManager_Example-dummy.m */,
+				F9C8866545866FF15A6609FE80296D12 /* Pods-QNAuthManager_Example-frameworks.sh */,
+				667B102C3F74EAA13DF30057D0C29643 /* Pods-QNAuthManager_Example-resources.sh */,
+				B8C61617654398C6E8ACFBE7C4311C07 /* Pods-QNAuthManager_Example-umbrella.h */,
+				0B932AB1978B5D8D3AA7E8E25A55B4BF /* Pods-QNAuthManager_Example.debug.xcconfig */,
+				D0232AADE9103EE62555B57431B78C9D /* Pods-QNAuthManager_Example.release.xcconfig */,
+			);
+			name = "Pods-QNAuthManager_Example";
+			path = "Target Support Files/Pods-QNAuthManager_Example";
+			sourceTree = "<group>";
+		};
+		B22E0277ECE4D6B42882F06C4EAB34A5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58AC1585AAF506343FA13A11DCEAE77A /* QNAuthManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCEC41A928A93EEA3848C6D00F907A1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6864464C276A309E24B16E86EA468DD /* Info.plist */,
+				9299D06C2CC60FB5090B8EBB1E4E1182 /* QNAuthManager.modulemap */,
+				AA2559FC462E067258AC12061A254F43 /* QNAuthManager.xcconfig */,
+				E2E1269A547FEA0AEA266FA404C3BEA4 /* QNAuthManager-dummy.m */,
+				76AA8B88C8FAEE414D5194F8D67E3BC9 /* QNAuthManager-prefix.pch */,
+				6C3B3E6DDA5CE55FEBE52DDCE7F3AC89 /* QNAuthManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QNAuthManager";
+			sourceTree = "<group>";
+		};
+		DEF9325DE62DA5A4F2DED0275E4B51C9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				968EF39A854481E79E41FD89C3CAA53E /* Pods-QNAuthManager_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E9808D2346020AC6588E56895EF54DED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7067A2041B35A4752B85FB49E4C29B9F /* Pods-QNAuthManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19C3BB8BDE98CF71346E985896A8666 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8F1B23F5EB890D142C8C698CCA0E6E /* QNAuthManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05C8F9F4811176F93A4E70FEE86D94B5 /* Pods-QNAuthManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365CEDED50547D2112851DDDC5827AD4 /* Build configuration list for PBXNativeTarget "Pods-QNAuthManager_Example" */;
+			buildPhases = (
+				E9808D2346020AC6588E56895EF54DED /* Headers */,
+				BCAABD33AC5BC7A55978E85D22538D73 /* Sources */,
+				7221205F1919FCF7651F530F837EDD7A /* Frameworks */,
+				30886F517D55D19B72EF9A4BC1F71E07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8BA6119FC4ED18497B56A5871F0476 /* PBXTargetDependency */,
+			);
+			name = "Pods-QNAuthManager_Example";
+			productName = "Pods-QNAuthManager_Example";
+			productReference = E0278E003BC0444D06BFDDC74012DE6E /* Pods_QNAuthManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EAB2A6DF18B8BF84EB7D62F4114730B /* QNAuthManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8E60089E6B3D9DBF101996CC6F73AAF /* Build configuration list for PBXNativeTarget "QNAuthManager" */;
+			buildPhases = (
+				F19C3BB8BDE98CF71346E985896A8666 /* Headers */,
+				DFF04823103F74AE196D4A5D7C14B0C4 /* Sources */,
+				860FB0BCC9890949B734CCB35FF4CC8A /* Frameworks */,
+				73ADADC878E932DB3650798C22AC21D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QNAuthManager;
+			productName = QNAuthManager;
+			productReference = BB01DA7447C15ABE7CDD9EBB803A3C61 /* QNAuthManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 282FFCA3EB5010F7C1A6EBAE6D438030 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05C8F9F4811176F93A4E70FEE86D94B5 /* Pods-QNAuthManager_Example */,
+				3EAB2A6DF18B8BF84EB7D62F4114730B /* QNAuthManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30886F517D55D19B72EF9A4BC1F71E07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73ADADC878E932DB3650798C22AC21D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAABD33AC5BC7A55978E85D22538D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9456904CFD0C669592483575B81A4FA7 /* Pods-QNAuthManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF04823103F74AE196D4A5D7C14B0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA65220B6B76FDB5DBEA7BB49D5A4E10 /* QNAuthManager-dummy.m in Sources */,
+				7B32CD4F05365CFED96299BC16E26BD7 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C8BA6119FC4ED18497B56A5871F0476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QNAuthManager;
+			target = 3EAB2A6DF18B8BF84EB7D62F4114730B /* QNAuthManager */;
+			targetProxy = F27914AEB2BDB9123004804A0E46D32B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		288540B7227C4D79DD1ABBE49B0289C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2559FC462E067258AC12061A254F43 /* QNAuthManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QNAuthManager/QNAuthManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QNAuthManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QNAuthManager/QNAuthManager.modulemap";
+				PRODUCT_MODULE_NAME = QNAuthManager;
+				PRODUCT_NAME = QNAuthManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7672D577882BC4CEE37B22E70D61ECCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B932AB1978B5D8D3AA7E8E25A55B4BF /* Pods-QNAuthManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QNAuthManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QNAuthManager_Example/Pods-QNAuthManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D6FE1B4D125355CA4A392A30964E406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2559FC462E067258AC12061A254F43 /* QNAuthManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QNAuthManager/QNAuthManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QNAuthManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QNAuthManager/QNAuthManager.modulemap";
+				PRODUCT_MODULE_NAME = QNAuthManager;
+				PRODUCT_NAME = QNAuthManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3BF3FD12437504BDE401C9DE520DE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0232AADE9103EE62555B57431B78C9D /* Pods-QNAuthManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QNAuthManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QNAuthManager_Example/Pods-QNAuthManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50646285DD9FD95AF390BDA3FB1948EA /* Debug */,
+				58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365CEDED50547D2112851DDDC5827AD4 /* Build configuration list for PBXNativeTarget "Pods-QNAuthManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7672D577882BC4CEE37B22E70D61ECCF /* Debug */,
+				E3BF3FD12437504BDE401C9DE520DE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8E60089E6B3D9DBF101996CC6F73AAF /* Build configuration list for PBXNativeTarget "QNAuthManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6FE1B4D125355CA4A392A30964E406 /* Debug */,
+				288540B7227C4D79DD1ABBE49B0289C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
